@@ -1,0 +1,50 @@
+/* Teacher - Edit page */
+.tagify--focus {
+    border-color: #7A70BA !important;
+    -webkit-box-shadow: 0 0 0 0.25rem rgba(122, 112, 186, 0.3);
+            box-shadow: 0 0 0 0.25rem rgba(122, 112, 186, 0.3);
+}
+.tagify__dropdown__wrapper {
+    background: var(--white);
+    border-color: #7A70BA !important;
+}
+.tagify__dropdown__item:hover {
+    background-color: #7A70BA !important;
+}
+.tagify__dropdown__item.focused {
+    background-color: #7A70BA !important;
+}
+.tagify__dropdown__item--active {
+    background-color: #7A70BA !important;
+}
+
+/* Student - Create and Edit page */
+.select2.select2-container.select2-container--default {
+    height: auto !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+.select2-selection.select2-selection--single {
+    border-color: #dee2e6 !important;
+    height: auto !important;
+    position: relative !important;
+}
+.select2-selection__arrow {
+    position: absolute !important;
+    top: 10px !important;
+    right: 5px !important;
+}
+.select2-dropdown.select2-dropdown--below {
+    top: -21px !important;
+    border-color: #dee2e6 !important;
+}
+.select2-search__field {
+    border-color: #dee2e6 !important;
+}
+
+/* Teacher - Dashboard */
+.swiper-slide {
+    width: 100% !important;
+    max-height: 400px;
+    overflow: auto;
+}
